@@ -1,6 +1,9 @@
 namespace Foo
 
 module Main = begin
+    let private unusedNumberPrivate =
+        1
+
     let unusedNumber =
         1
 
