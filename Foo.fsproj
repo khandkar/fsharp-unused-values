@@ -1,0 +1,15 @@
+<!-- vim: set filetype=xml tabstop=2 softtabstop=2 shiftwidth=2: -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Foo</RootNamespace>
+    <OtherFlags>$(OtherFlags) --warnon:1182</OtherFlags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
