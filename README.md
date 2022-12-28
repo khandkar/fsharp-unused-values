@@ -1,11 +1,10 @@
 Why are only unused parameters reported?
 ========================================
 
-
 Demo
 ----
 ```
- $ make                                                                                                                            [9:46:08]
+$ make
 rm -rf bin obj
 make build
 make[1]: Entering directory 'fsharp-unused-values'
@@ -22,7 +21,6 @@ Build succeeded.
 fsharp-unused-values/Program.fs(4,24): warning FS1182: The value 'unusedParameter' is unused [fsharp-unused-values/Foo.fsproj]
     1 Warning(s)
     0 Error(s)
-
 ```
 
 Why weren't `unusedFunction` and `unusedNumber` reported?
