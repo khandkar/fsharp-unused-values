@@ -1,6 +1,10 @@
 Why are only unused parameters reported?
 ========================================
 
+Issue
+-----
+https://github.com/dotnet/fsharp/issues/7753
+
 Demo
 ----
 ```
